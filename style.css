@@ -1,0 +1,53 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(202, 44%, 95%)
+}
+
+h1{
+    color: hsl(209, 100%, 51%);
+}
+
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px hsla(266, 49%, 59%, 0.404);
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgba(0, 0, 0, 0.493);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: hsl(27, 97%, 70%);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(27, 97%, 50%);;
+}
+
+p{
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+}
